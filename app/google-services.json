@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "162542260266",
+    "firebase_url": "https://mckvie-e041c.firebaseio.com",
+    "project_id": "mckvie-e041c",
+    "storage_bucket": "mckvie-e041c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162542260266:android:08cf89339d6a837d",
+        "android_client_info": {
+          "package_name": "com.techclub.mckvie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162542260266-a8v1sof9kmm6l9uq8bgp5r30c4r8ba15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techclub.mckvie",
+            "certificate_hash": "b17105511c47f86e20e6ed1845b3a90184f2d2cf"
+          }
+        },
+        {
+          "client_id": "162542260266-oqp92s4p6tp98me0r8csi654fir1p22s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_kiW8pVtEsBbF1CLmUoQciCU1EzuYnKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162542260266-oqp92s4p6tp98me0r8csi654fir1p22s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
