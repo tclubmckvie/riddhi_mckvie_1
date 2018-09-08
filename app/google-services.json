@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "162542260266",
-    "firebase_url": "https://mckvie-e041c.firebaseio.com",
-    "project_id": "mckvie-e041c",
-    "storage_bucket": "mckvie-e041c.appspot.com"
+    "project_number": "919186041857",
+    "firebase_url": "https://mckvie-a1ca1.firebaseio.com",
+    "project_id": "mckvie-a1ca1",
+    "storage_bucket": "mckvie-a1ca1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:162542260266:android:08cf89339d6a837d",
+        "mobilesdk_app_id": "1:919186041857:android:08cf89339d6a837d",
         "android_client_info": {
           "package_name": "com.techclub.mckvie"
         }
       },
       "oauth_client": [
         {
-          "client_id": "162542260266-a8v1sof9kmm6l9uq8bgp5r30c4r8ba15.apps.googleusercontent.com",
+          "client_id": "919186041857-4knnqe7v3rf3ovgkm5341nmap5hjtn8u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.techclub.mckvie",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "162542260266-oqp92s4p6tp98me0r8csi654fir1p22s.apps.googleusercontent.com",
+          "client_id": "919186041857-b2l4lcpt80vt4evlifmf2bnbqt88d32d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC_kiW8pVtEsBbF1CLmUoQciCU1EzuYnKs"
+          "current_key": "AIzaSyDl4yeZE9IZYEaN-YUW-cOKRCY0G5Kbzhs"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "162542260266-oqp92s4p6tp98me0r8csi654fir1p22s.apps.googleusercontent.com",
+              "client_id": "919186041857-b2l4lcpt80vt4evlifmf2bnbqt88d32d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
