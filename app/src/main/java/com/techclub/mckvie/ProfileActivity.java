@@ -151,6 +151,32 @@ public class ProfileActivity extends AppCompatActivity {
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent, "Select Profile Image"), CHOOSE_IMAGE);
+    }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(ProfileActivity.this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

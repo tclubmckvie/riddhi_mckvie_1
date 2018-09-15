@@ -6,22 +6,16 @@
         <item android:id="@+id/nav_signin"
             android:title="Sign In"
             android:icon="@mipmap/baseline_search_black_18dp"
-            android:visible="false"/>
+            android:visible="true"/>
 
         <item android:id = "@+id/nav_account"
             android:title = "My Account"
             android:icon="@mipmap/baseline_person_black_18dp"
-            android:visible="true"/>
+            android:visible="false"/>
 
         <item
             android:id="@+id/nav_settings"
             android:title="Settings"
             android:icon="@mipmap/baseline_settings_black_18dp"/>
-
-        <item
-            android:id="@+id/nav_signout"
-            android:title="Sign Out"
-            android:icon="@mipmap/baseline_input_black_18dp"
-            android:visible="true"/>
     </group>
 </menu>

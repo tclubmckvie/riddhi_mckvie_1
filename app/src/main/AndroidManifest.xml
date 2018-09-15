@@ -19,7 +19,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".TestActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Syllabus"></activity>
     </application>
 
 </manifest>
