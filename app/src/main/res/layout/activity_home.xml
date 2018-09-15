@@ -279,6 +279,7 @@
     </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
         android:layout_width="250dp"
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar"
@@ -287,13 +288,6 @@
         app:itemTextAppearance="@style/TextAppearance.AppCompat.Body2"
         app:menu="@menu/navigation_menu"
         android:layout_gravity="start" >
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="127dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="SIGNOUT" />
 
     </android.support.design.widget.NavigationView>
 

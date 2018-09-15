@@ -6,7 +6,7 @@ android:layout_gravity="left"
 android:background="#263238">
 
     <ImageView
-        android:layout_width="240dp"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:adjustViewBounds="true"
