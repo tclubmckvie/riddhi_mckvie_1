@@ -22,6 +22,9 @@ public class Syllabus extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setTitle("");
+        toolbar.setSubtitle("");
         button1st= (Button) findViewById(R.id.button1st);
         buttonCSE= (Button) findViewById(R.id.buttonCSE);
         buttonECE= (Button) findViewById(R.id.buttonECE);
