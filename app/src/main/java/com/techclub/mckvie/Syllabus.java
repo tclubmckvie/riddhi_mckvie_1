@@ -4,6 +4,7 @@ import android.app.DownloadManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -11,12 +12,16 @@ public class Syllabus extends AppCompatActivity {
 
     Button button1st,buttonCSE,buttonECE,buttonEE,buttonIT,buttonME,buttonAUE,MTECHCSE,MTECHECE,MTECHAE,MTECHVLSI,MCA;
     DownloadManager downloadManager;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_syllabus);
-
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         button1st= (Button) findViewById(R.id.button1st);
         buttonCSE= (Button) findViewById(R.id.buttonCSE);
         buttonECE= (Button) findViewById(R.id.buttonECE);
@@ -128,5 +133,10 @@ public class Syllabus extends AppCompatActivity {
                 Long reference = downloadManager.enqueue(request);
             }
         });
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

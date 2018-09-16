@@ -7,6 +7,7 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -130,7 +131,7 @@ public class ProfileActivity extends AppCompatActivity {
              public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                  progressBar.setVisibility(View.GONE);
 
-                 profileImageUrl = taskSnapshot.getDownloadUrl().toString();
+                 profileImageUrl = taskSnapshot.getStorage().getDownloadUrl().toString();
 
              }
          })

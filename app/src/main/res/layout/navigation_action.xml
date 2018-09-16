@@ -3,6 +3,7 @@ android:id="@+id/toolbar"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:layout_gravity="left"
+    android:theme="@style/ToolbarTheme"
 android:background="#263238">
 
     <ImageView
